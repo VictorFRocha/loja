@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bem-vindo à Lojinha</h1>
+    <div class="loja">
+        <div class="produto">
+            <h2>Item 1</h2>
+            <p>Preço: R$ 50,00</p>
+            <button onclick="adicionarAoCarrinho('Item 1', 50)">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="produto">
+            <h2>Item 2</h2>
+            <p>Preço: R$ 30,00</p>
+            <button onclick="adicionarAoCarrinho('Item 2', 30)">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="produto">
+            <h2>Item 3</h2>
+            <p>Preço: R$ 70,00</p>
+            <button onclick="adicionarAoCarrinho('Item 3', 70)">Adicionar ao carrinho</button>
+        </div>
+    </div>
+
+    <h2>Carrinho</h2>
+    <ul id="carrinho">
+        <p>Carrinho vazio.</p>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
